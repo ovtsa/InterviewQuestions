@@ -35,7 +35,7 @@ public class RTSLabs {
 		return newFirstPiece + newSecondPiece;
 	}
 
-	/** Main method
+	/** Main method.
 	 *
 	 * @param args - command line arguments (unused)
 	 */

@@ -1,0 +1,9 @@
+I would choose to modify the Java language by making it possible to overload operators.
+
+In C++, you can overload operators in your classes almost just like you would
+for functions. This allows you to do things like create a Vector2 class, and instead
+of constantly having to deal with a function signature like 
+Vector2.addVectors(Vector2 v1, Vector2 v2), you can simply overload the + operator and
+type v1 + v2. This has proven to be a major annoyance in some of my Java projects, where
+I've ended up having to write things like (v1.add(v2)).divide(v3). This becomes hard
+to read. 
